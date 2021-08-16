@@ -66,7 +66,7 @@ const Signup = () => {
         <div className="">
           <img src="signup.jpg" alt="Sign In" />
           <span className="border-b border-black mt-10">
-            <Link to="/signup">I am already member</Link>
+            <Link to="/signin">I am already member</Link>
           </span>
         </div>
       </div>
