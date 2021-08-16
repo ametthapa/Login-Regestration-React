@@ -32,7 +32,7 @@ const Signup = () => {
             <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-6">
               <RiLockPasswordFill />
               <input
-                type="text"
+                type="password"
                 placeholder="Password"
                 className="pl-4 focus:outline-none"
               />
@@ -40,7 +40,7 @@ const Signup = () => {
             <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-6">
               <RiLockPasswordFill />
               <input
-                type="text"
+                type="password"
                 placeholder="Repeat Your Password"
                 className="pl-4 focus:outline-none"
               />
