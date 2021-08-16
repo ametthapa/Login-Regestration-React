@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
-import { FaUser } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 import { RiLockPasswordFill } from "react-icons/ri";
 
 const Signin = () => {
@@ -10,7 +11,7 @@ const Signin = () => {
         <div className="">
           <img src="signin.jpg" alt="Sign In" />
           <span className="border-b border-black">
-            <Link to="/signu">Create an account</Link>
+            <Link to="/signup">Create an account</Link>
           </span>
         </div>
         <div>
@@ -18,13 +19,21 @@ const Signin = () => {
             Sign in
           </div>
           <form>
-            <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-8">
-              <FaUser />
-              <input type="text" placeholder="Your E-mail" className="pl-4" />
+            <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-6">
+              <MdEmail />
+              <input
+                type="text"
+                placeholder="Your E-mail"
+                className="pl-4 focus:outline-none"
+              />
             </div>
-            <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-8">
+            <div className="border-b border-black flex w-3/4 p-2 ml-2 mb-6">
               <RiLockPasswordFill />
-              <input type="text" placeholder="Your Password" className="pl-4" />
+              <input
+                type="text"
+                placeholder="Your Password"
+                className="pl-4 focus:outline-none"
+              />
             </div>
             <div className="items-left flex justify-start items-center ml-2">
               <input type="checkbox" value="1" />
